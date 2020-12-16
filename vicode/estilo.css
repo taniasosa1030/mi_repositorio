@@ -1,0 +1,78 @@
+@-webkit-keyframes colores {
+  0% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+
+@keyframes colores {
+  0% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+
+@-webkit-keyframes colores2 {
+  0% {
+    background-color: purple;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+@keyframes colores2 {
+  0% {
+    background-color: purple;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+@keyframes inicio{
+  0%{
+          transform: rotateX(0deg);
+  }
+  100%{
+      transform: rotateX(350deg);
+
+  }
+}
+
+
+
+.degh {
+  height: 4px;
+  width: 100%;
+  -webkit-animation: colores 3s linear infinite alternate both;
+          animation: colores 3s linear infinite alternate both;
+}
+
+.degf {
+  height: 4px;
+  -webkit-animation: colores2 3s linear infinite alternate both;
+          animation: colores2 3s linear infinite alternate both;
+}
+
+#bienvenidos{
+  margin-left: 50%;
+  font-weight: 600;
+  width: 50%;
+  height: 20%;
+  margin-top: 15%;
+  /* font-style: italic; */
+  /* background-color:rgba(0, 0, 0, 0.493); */
+  box-shadow: inset;
+  text-align:center ;
+  font-size: 7vh;
+  color: white;
+  /* animation: inicio 3s infinite alternate; */
+}
+
+
+/*# sourceMappingURL=estilo.css.map */
